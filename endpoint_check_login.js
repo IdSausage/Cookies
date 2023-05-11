@@ -12,7 +12,6 @@ module.exports = (req, res) => {
     {
         res.json({
             success: true,
-            decode_ms: decoded,
             message: "User is logged in",
         });
     }
